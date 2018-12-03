@@ -70,9 +70,10 @@ enter command: B 10 3 o
 |     xoooooooooooooo|
 ----------------------
 ```
-# To Execute
--
--
 # Assumptions
--
--
+- Commands are not case sensitive
+- Drawing diagnol line is not supported
+- When a command receives fewer arguments than expected, it will throw an exception but if it receives more than specifed arguments, it will just ignore the extra arguments.
+# To Execute
+- From prebuilt JAR: java -jar Canvas-Drawing-0.0.1-SNAPSHOT.jar
+- Run program: mvn exec:java
